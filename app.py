@@ -10,17 +10,17 @@ def calculate():
     # print (f"Your percentage is {percentage} %")
 
     if percentage >= 90 and percentage <= 100:
-        result=(" Grade A+")
+        result=(" A+")
     elif percentage >= 80:
-        result=(" Grade A")
+        result=(" A")
     elif percentage >= 70:
-        result=(" Grade B+")
+        result=(" B+")
     elif percentage >= 60:
-        result=(" Grade B")
+        result=(" B")
     elif percentage >= 50:
-        result=(" Grade C+")
+        result=(" C+")
     elif percentage >= 40:
-        result=(" Grade C")
+        result=(" C")
     elif percentage <= 30:
         result=("better luck next time")
     else:
